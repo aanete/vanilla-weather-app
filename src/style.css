@@ -4,28 +4,37 @@ ul {
     text-align: center;
 }
 
-h1 {
+strong {
     font-size: 50px;
+    line-height: 1;
 }
 h2 {
     text-align: center;
+    text-transform: uppercase;
+    font-size: 35px;
+    padding-bottom: 20px;
 }
 
 .container {
-    border: 2px solid #9ea4a9;
+    border: 1px solid #9ea4a9;
     padding: 20px;
     margin: 20px auto 0 auto;
-    max-width: 500px;
+    max-width: 600px;
     border-radius: 3px;
-    background-color: rgb(253, 232, 229);
+box-shadow: 2px 2px 2px 1px rgba(67, 67, 72, 0.1);
+    background-color: rgb(254, 244, 243);
 }
-
-#temperature {
-    text-align: center;
+.degrees {
+position: relative;
+right: -32px;    
 }
 
 .footer {
     text-align: center;
     font-size: smaller;
    
+}
+
+#temperature {
+    text-align: center;
 }
