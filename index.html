@@ -12,23 +12,24 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="src/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
   </head>
   <body>
     <div class="container">
       <div>
-        <h2>📍London</h2>
+        <h2 id="city"></h2>
         <div class="row">
             <div class="col-3">
                
         <ul>
-          <li>📆Monday, 6/6</li>
-          <li>🕰️16:00</li>
-          <li>☁️Clear</li>
+          <li id="date">📆Monday, 6/6</li>
+          <li id="time">🕰️16:00</li>
+          <li id="sky">☁️Clear</li>
         </ul>
         </div>
-        <div class="col-6" id="temperature">
+        <div class="col-6" id="tempDegrees">
                 
-          <strong>☀️19</strong>
+          <strong id="temperature">☀️19</strong>
          <div class="degrees">ºC | ºF</div> 
       
     </div>

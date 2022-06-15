@@ -21,7 +21,7 @@ h2 {
     margin: 20px auto 0 auto;
     max-width: 600px;
     border-radius: 3px;
-box-shadow: 2px 2px 2px 1px rgba(67, 67, 72, 0.1);
+    box-shadow: 2px 2px 2px 1px rgba(67, 67, 72, 0.1);
     background-color: rgb(254, 244, 243);
 }
 .degrees {
@@ -35,6 +35,6 @@ right: -32px;
    
 }
 
-#temperature {
+#tempDegrees {
     text-align: center;
 }
