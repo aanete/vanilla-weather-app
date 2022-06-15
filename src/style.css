@@ -1,0 +1,31 @@
+ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+}
+h2 {
+    text-align: center;
+}
+
+.container {
+    border: 2px solid #9ea4a9;
+    padding: 20px;
+    margin: 20px auto 0 auto;
+    max-width: 500px;
+    border-radius: 3px;
+    background-color: rgb(253, 232, 229);
+}
+
+#temperature {
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    font-size: smaller;
+   
+}
