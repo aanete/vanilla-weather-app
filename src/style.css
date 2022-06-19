@@ -24,6 +24,10 @@ h2 {
     box-shadow: 2px 2px 2px 1px rgba(67, 67, 72, 0.1);
     background-color: rgb(254, 244, 243);
 }
+
+.updated {
+    padding: 0 0 20px 0;
+}
 .degrees {
 position: relative;
 right: -32px;    
