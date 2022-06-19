@@ -1,7 +1,7 @@
 ul {
     list-style: none;
     padding: 0;
-    text-align: center;
+    text-align: left;
 }
 
 strong {
@@ -9,11 +9,10 @@ strong {
     line-height: 1;
 }
 h2 {
-    text-align: center;
+    text-align: left;
     text-transform: uppercase;
     font-size: 35px;
-    padding-bottom: 20px;
-}
+}  
 
 .container {
     border: 1px solid #9ea4a9;
@@ -30,7 +29,7 @@ h2 {
 }
 .degrees {
 position: relative;
-right: -32px;    
+right: -33px;    
 }
 
 .footer {
@@ -41,6 +40,7 @@ right: -32px;
 
 #tempDegrees {
     text-align: center;
+    
 }
 
 #sky {
