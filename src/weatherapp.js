@@ -38,12 +38,16 @@ function displayTemperature(response) {
     humidityElement.innerHTML = (response.data.main.humidity);
    let dateElement = document.querySelector("#date");
    dateElement.innerHTML = formatDate(response.data.dt * 1000);
- 
+
+   let iconElement = document.querySelector("#icon");
+   iconElement.setAttribute("src", `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`);
+ iconElement.setAttribute("alt", response.data.weather[0].description);
 }
 
 
 let apiKey = "f6ee4e21ef3e79eaac68ef17a64ce0d6";
-let city = "Bergen";
+
+let city = "Paris";
 let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
 axios.get(apiUrl).then(displayTemperature);
