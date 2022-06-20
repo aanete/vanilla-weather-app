@@ -38,9 +38,8 @@ form {
     max-width: 600px;
     border-radius: 3px;
     box-shadow: 2px 2px 2px 1px rgba(67, 67, 72, 0.1);
-    background-color: rgb(254, 244, 243);
+    background: radial-gradient(circle at 10% 20%, rgb(211, 255, 250) 0%, rgb(201, 255, 228) 100.2%);
 }
-
 
 
 .updated {
@@ -48,7 +47,18 @@ form {
 }
 .degrees {
 position: relative;
-left: -50px;    
+left: -50px; 
+
+}
+
+#celsius-link {
+    color: black;
+    cursor: default;
+}
+
+#fahrenheit-link {
+    color: black;
+    cursor: default;
 }
 
 .footer {
