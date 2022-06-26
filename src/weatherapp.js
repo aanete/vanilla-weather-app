@@ -48,7 +48,7 @@ function displayForecast(response) {
         forecastHTML = forecastHTML + `
       <div class="col-2">
 					<div class="forecast-day">${formatForecastDate(forecastDay.dt)}</div>
-					<div class="forecast-icon"><img src="http://openweathermap.org/img/wn/${forecastDay.weather[0].icon}@2x.png" alt="" width="42" /></div>
+					<div class="forecast-icon"><img src="http://openweathermap.org/img/wn/${forecastDay.weather[0].icon}@2x.png" alt="" width="50" /></div>
 					<div class="forecast-temperature">
 						<span class="forecast-temperature-max">${Math.round(forecastDay.temp.max)}º</span>
 						<span class="forecast-temperature-min">${Math.round(forecastDay.temp.min)}º</span>
