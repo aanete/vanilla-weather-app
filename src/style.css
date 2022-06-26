@@ -61,6 +61,18 @@ left: -50px;
     cursor: default;
 }
 
+.forecast {
+    text-align: center;
+    font-size: 13px;
+    margin-left: 10px;
+}
+.forecast-icon {
+    font-size: 30px;
+}
+.forecast-temperature-min {
+    opacity: 0.7;
+}
+
 .footer {
     text-align: center;
     font-size: smaller;
