@@ -5,27 +5,18 @@ ul {
     text-transform: capitalize
 }
 
-
-
 strong {
-    font-size: 50px;
-    line-height: 1;
+    font-size: 60px;
     position: relative;
-    left: -50px;
-   
-    
+        left: -50px;
+        top: -10px;
 }
 h2 {
     text-align: left;
     text-transform: uppercase;
     font-size: 35px;
-    line-height: 1;
+  
 }  
-
-#icon {
-    position: relative;
-    top: -15px;
-}
 
 form {
     padding: 0 0 20px 0;
@@ -38,17 +29,27 @@ form {
     max-width: 600px;
     border-radius: 3px;
     box-shadow: 2px 2px 2px 1px rgba(67, 67, 72, 0.1);
-    background: radial-gradient(circle at 10% 20%, rgb(218, 255, 251) 0%, rgb(213, 253, 233) 100.2%);
+    background: radial-gradient(circle at 10% 20%, rgb(210, 248, 252) 0%, rgb(168, 250, 188) 100.2%);
+    font-family: 'Poppins', sans-serif;
 }
 
+#icon {
+    position: relative;
+    top: -15px;
+}
 
 .updated {
     padding: 0 0 20px 0;
 }
+
+.btn {
+    background-color:rgb(51, 157, 90);
+}
+
 .degrees {
 position: relative;
-left: -50px; 
-
+    left: -50px;
+    top: -40px;
 }
 
 #celsius-link {
